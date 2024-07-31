@@ -171,6 +171,7 @@ footer {
 
     .hero, .info-boxes {
         flex-direction: column;
+        align-items: center;
     }
 
     .hero-content, .hero-image {
