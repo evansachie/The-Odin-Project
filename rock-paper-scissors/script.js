@@ -1,5 +1,8 @@
 const prompt = require('prompt-sync')();
 
+let humanScore = 0;
+let computerScore = 0;
+
 function getComputerChoice(){
     let selection = Math.floor(Math.random() * 3)
 
