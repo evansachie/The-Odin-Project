@@ -60,6 +60,7 @@ function playGame() {
         console.log(playRound(humanSelection, computerSelection));
         console.log(`Current score - Human: ${humanScore}, Computer: ${computerScore}`);
     }
+    
 
     console.log(`Final score - Human: ${humanScore}, Computer: ${computerScore}`);
     if (humanScore > computerScore) {
