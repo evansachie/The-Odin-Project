@@ -38,3 +38,17 @@ newDiv.appendChild(pInDiv);
 
 // Add the newDiv to the container
 container.appendChild(newDiv);
+
+// Add Event listener to button
+const btn = document.querySelector("#btn");
+btn.addEventListener("click", () => {
+    alert("Hello, World!")
+})
+
+// selecting all adding events to all buttons
+const buttons = document.querySelectorAll("button");
+buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+        alert("Hello, World!")
+    });
+});
