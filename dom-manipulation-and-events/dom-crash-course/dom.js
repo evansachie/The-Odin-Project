@@ -117,3 +117,50 @@ var h1 = document.querySelector('header h1');
 container.insertBefore(newDiv, h1);
  
 newDiv.style.fontSize = '20px';
+
+
+// EVENTS
+var button = document.getElementById("button");
+button.addEventListener('click', buttonClick);
+
+function buttonClick(e){
+    // console.log('Button Clicked')
+    // document.getElementById('header-title').textContent = 'Changed';
+    console.log(e);
+    console.log(e.target.id);
+    console.log(e.target.className);
+    console.log(e.type);
+    console.log(e.clientX);
+
+    console.log(e.altKey);
+    console.log(e.ctrKey);
+    console.log(e.shiftKey);
+
+    console.log('EVENT TYPE: ' +e.type);
+}
+
+// event types - click, dbclick, mousedown, mouseup, etc
+
+var box = document.getElementById('box');
+box.addEventListener('mouseenter', runEvent);
+box.addEventListener('mouseleave', runEvent);
+box.addEventListener('mousemove', runEvent);
+
+var itemInput = document.querySelector('input[type="text"]');
+var form = document.querySelector('form');
+
+form.addEventListener('submit', runEvent);
+
+itemInput.addEventListener('keydown', runEvent);
+// itemInput.addEventListener('keyup', runEvent);
+// itemInput.addEventListener('keypress', runEvent);
+// Others incluce - focus, blur, cut, paste, etc
+
+function runEvent(e){
+    e.preventDefault();
+    console.log('EVENT TYPE:' +e.type);
+    console.log(e.target.value);
+    box.style.backgroundColor = "rgb("+e.offsetX+", "+e.offsetY+", 40)";
+}
+
+
