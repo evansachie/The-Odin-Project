@@ -7,7 +7,7 @@ const fibonacci = function(num) {
         return 1
     }
     
-    fib = [0, 1]
+    fib = [1, 1]
     for (i = 2; i < num; i ++){
         fib[i] = fib[i - 1] + fib[i - 2];
     }
