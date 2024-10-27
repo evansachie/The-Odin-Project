@@ -1,0 +1,164 @@
+:root {
+    --primary-color: #596D48;
+    --error-color: #ff6b6b;
+    --border-color: #E5E7EB;
+    --focus-color: #2563eb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.signup-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.image-sidebar {
+    flex: 2;
+    position: relative;
+    background-image: url('./assets/bg-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.logo-banner {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    height: 100px;
+}
+
+.logo-text {
+    font-family: 'Norse Bold', sans-serif;
+    font-size: 5rem;
+}
+
+.image-credit {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.form-section {
+    flex: 3;
+    background-color: #f9fafb;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+}
+
+.form-header h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.form-content {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.form-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+label {
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333;
+}
+
+input {
+    padding: 0.8rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--focus-color);
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.2);
+}
+
+input:invalid {
+    border-color: var(--error-color);
+}
+
+input[type="password"]:invalid {
+    border-color: var(--error-color);
+}
+
+.form-footer {
+    margin-top: 2rem;
+}
+
+.btn-submit {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn-submit:hover {
+    background-color: #4a5d3f;
+}
+
+.login-link {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.login-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
