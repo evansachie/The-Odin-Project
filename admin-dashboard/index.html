@@ -3,23 +3,263 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-     <main>
-
         <!-- App Drawer -->
-         <div></div>
+         <div class="drawer">
+            <div class="dashboard menuItem">
+                <img src="./icons/view-dashboard.svg" alt="">
+                <h1>Dashboard</h1>
+            </div>
+
+            <div class="menuItem">
+                <img src="./icons/home.svg" alt="">
+                <h1>Home</h1>
+            </div>
+
+            <div class="menuItem">
+                <img src="./icons/card-account-details.svg" alt="">
+                <h1>Profile</h1>
+            </div>
+
+            <div class="menuItem">
+                <img src="./icons/android-messages.svg" alt="">
+                <h1>Messages</h1>
+            </div>
+
+            <div class="menuItem">
+                <img src="./icons/clock-outline.svg" alt="">
+                <h1>History</h1>
+            </div>
+
+            <div class="menuItem">
+                <img src="./icons/note-multiple.svg" alt="">
+                <h1>Tasks</h1>
+            </div>
+
+            <div class="menuItem">
+                <img src="./icons/account-group.svg" alt="">
+                <h1>Communities</h1>
+            </div>
+
+            <!-- Need extra spacing here from the rest of the options below -->
+            <div class="menuItem">
+                <img src="./icons/cog.svg" alt="">
+                <h1>Settings</h1>
+            </div>
+
+            <div class="menuItem">
+                <img src="./icons/message-question.svg" alt="">
+                <h1>Support</h1>
+            </div>
+
+            <div class="menuItem">
+                <img src="./icons/shield-check.svg" alt="">
+                <h1>Privacy</h1>
+            </div>
+         </div>
 
         <!-- Sidebar Section -->
-         <div></div>
+         <div class="navbar">
+            <!-- Top Section -->
+            <div class="topNav">
+                <!-- Search icon and search bar -->
+                 <div class="search">
+                    <div class="menuItem">
+                        <img src="./icons/magnify.svg" alt="">
+                    </div>
+                    <label for="search" class="visually-hidden">Search</label>
+                    <input 
+                        type="text" 
+                        id="search"
+                        placeholder="Search..."
+                        name="search" 
+                        autocomplete="off"
+                    >
+                 </div>
+
+                 <div class="account">
+                    <div class="menuItem">
+                        <img src="./icons/bell-ring-outline.svg" alt="">
+                    </div>
+                    <div class="gh-avatar"></div>
+                    <div class="name">Evans Acheampong</div>
+                 </div>
+            </div>
+
+            <!-- Bottom Section -->
+             <div class="bottom">
+                <div class="profile">
+                    <div class="gh-avatar"></div>
+                    <div class="profile-name">
+                        <div class="greeting">Hi there,</div>
+                        <div class="name">Evans (@evans)</div>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <div class="btn">New</div>
+                    <div class="btn">Upload</div>
+                    <div class="btn">Share</div>
+                </div>
+             </div>
+         </div>
 
         <!-- Main Content Section -->
-        <div></div>
+         <main class="content">
+            <div class="projects">
+                <h3>Your Projects</h3>
 
-     </main>
-    
+                <!-- All project cards -->
+                 <div class="cards">
+                    <div class="card">
+                        <h5 class="card-title">Super Cool Project</h5>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Corrupti accusantium ducimus iusto ex, eum, a quibusdam itaque, velit fuga saepe nemo laudantium est perferendis illo quas vero error numquam voluptatum.
+                        </p>
+                        <div class="icons">
+                            <img src="./icons/star-plus-outline.svg" alt="">
+                            <img src="./icons/eye-plus-outline.svg" alt="">
+                            <img src="./icons/source-branch.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h5 class="card-title">Less Cool Project</h5>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Corrupti accusantium ducimus iusto ex, eum, a quibusdam itaque, velit fuga saepe nemo laudantium est perferendis illo quas vero error numquam voluptatum.
+                        </p>
+                        <div class="icons">
+                            <img src="./icons/star-plus-outline.svg" alt="">
+                            <img src="./icons/eye-plus-outline.svg" alt="">
+                            <img src="./icons/source-branch.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h5 class="card-title">Impossible App</h5>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Corrupti accusantium ducimus iusto ex, eum, a quibusdam itaque, velit fuga saepe nemo laudantium est perferendis illo quas vero error numquam voluptatum.
+                        </p>
+                        <div class="icons">
+                            <img src="./icons/star-plus-outline.svg" alt="">
+                            <img src="./icons/eye-plus-outline.svg" alt="">
+                            <img src="./icons/source-branch.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h5 class="card-title">Easy Peasy App</h5>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Corrupti accusantium ducimus iusto ex, eum, a quibusdam itaque, velit fuga saepe nemo laudantium est perferendis illo quas vero error numquam voluptatum.
+                        </p>
+                        <div class="icons">
+                            <img src="./icons/star-plus-outline.svg" alt="">
+                            <img src="./icons/eye-plus-outline.svg" alt="">
+                            <img src="./icons/source-branch.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h5 class="card-title">Ad Blocker</h5>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Corrupti accusantium ducimus iusto ex, eum, a quibusdam itaque, velit fuga saepe nemo laudantium est perferendis illo quas vero error numquam voluptatum.
+                        </p>
+                        <div class="icons">
+                            <img src="./icons/star-plus-outline.svg" alt="">
+                            <img src="./icons/eye-plus-outline.svg" alt="">
+                            <img src="./icons/source-branch.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h5 class="card-title">Money Maker</h5>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Corrupti accusantium ducimus iusto ex, eum, a quibusdam itaque, velit fuga saepe nemo laudantium est perferendis illo quas vero error numquam voluptatum.
+                        </p>
+                        <div class="icons">
+                            <img src="./icons/star-plus-outline.svg" alt="">
+                            <img src="./icons/eye-plus-outline.svg" alt="">
+                            <img src="./icons/source-branch.svg" alt="">
+                        </div>
+                    </div>
+                 </div>
+
+                 <!-- Side Content: Annoucements and Trending -->
+                  <div class="annoucements">
+                    <ul class="card">
+                        <li class="annoucement">
+                            <h5 class="card-title">Site Maintenace</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Dignissimos necessitatibus vero est maxime blanditiis nam optio possimus delectus consectetur a quod illum obcaecati velit natus, nemo aliquam, labore sit itaque!
+                            </p>
+                        </li>
+
+                        <li class="annoucement">
+                            <h5 class="card-title">Community Share Day</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Dignissimos necessitatibus vero est maxime blanditiis nam optio possimus delectus consectetur a quod illum obcaecati velit natus, nemo aliquam, labore sit itaque!
+                            </p>
+                        </li>
+
+                        <li class="annoucement">
+                            <h5 class="card-title">Updated Privacy Policy</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Dignissimos necessitatibus vero est maxime blanditiis nam optio possimus delectus consectetur a quod illum obcaecati velit natus, nemo aliquam, labore sit itaque!
+                            </p>
+                        </li>
+                    </ul>
+                  </div>
+                  
+                  <div class="trending">
+                    <h3>Trending</h3>
+                    <ul class="card">
+                        <li class="trend trend-1">
+                            <div class="gh-avatar2"></div>
+                            <div class="account">
+                                <p class="username">@tegan</p>
+                                <p class="name card-text">World Peace Builder</p>
+                            </div>
+                        </li>
+
+                        <li class="trend trend-2">
+                            <div class="gh-avatar"></div>
+                            <div class="account">
+                                <p class="username">@Evans</p>
+                                <p class="name card-text">Coolest Youtuber Ever</p>
+                            </div>
+                        </li>
+
+                        <li class="trend trend-3">
+                            <div class="gh-avatar3"></div>
+                            <div class="account">
+                                <p class="username">@tegan</p>
+                                <p class="name card-text">Life Changing App</p>
+                            </div>
+                        </li>
+
+                        <li class="trend trend-4">
+                            <div class="gh-avatar4"></div>
+                            <div class="account">
+                                <p class="username">@tegan</p>
+                                <p class="name card-text">No Traffiv Maker</p>
+                            </div>
+                        </li>
+                    </ul>
+                  </div>
+            </div>
+         </main>
 </body>
 </html>
