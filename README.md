@@ -25,3 +25,8 @@ Explore each project below:
 - **Signup Form**  
   A simple signup form designed with HTML and CSS.  
   [Live Demo](https://top-signup.netlify.app/)
+
+- **Admin Dashboard**  
+  An admin dashboard designed with HTML and CSS.  
+  [Live Demo](https://admin-dashboard-mu-sand-49.vercel.app/)
+
