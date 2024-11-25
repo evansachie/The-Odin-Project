@@ -15,7 +15,7 @@ Explore each project below:
   [Live Demo](https://awesome04.github.io/Etch-A-Sketch/)
 
 - **Rock Paper Scissors**  
-  Play a classic game of Rock, Paper, Scissors against the computer.  
+  Play a classic game of rock, paper, and scissors against the computer.  
   [Live Demo](https://awesome04.github.io/rock-paper-scissors/)
 
 - **Landing Page**  
@@ -29,4 +29,8 @@ Explore each project below:
 - **Admin Dashboard**  
   An admin dashboard designed with HTML and CSS.  
   [Live Demo](https://admin-dashboard-mu-sand-49.vercel.app/)
+
+- **Library App**  
+A simple library application designed with HTML, CSS, and JS.  
+[Live Demo](https://library-app-ochre-two.vercel.app/)
 
