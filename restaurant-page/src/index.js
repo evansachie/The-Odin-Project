@@ -1,3 +1,4 @@
+import './styles.css';
 import header from './Home.js';
 import menu from './Menu.js';
 import contact from './Contact.js';

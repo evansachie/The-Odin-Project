@@ -18,6 +18,10 @@ module.exports = {
             filename: 'images/[name][ext]',
           },
       },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      }
     ],
   },
   devServer: {
