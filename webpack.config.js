@@ -9,16 +9,27 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
+  module: {
+    rules: [
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        type: 'asset/resource',
+        generator: {
+            filename: 'images/[name][ext]',
+          },
+      },
+    ],
+  },
   devServer: {
     static: {
       directory: path.resolve(__dirname, "dist"),
     },
-    port: 3000, // Optional: Set a custom port
-    open: true, // Automatically open the browser
+    port: 3000,
+    open: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./restaurant_page/src/index.html", // Path to your HTML file
+      template: "./restaurant_page/src/index.html",
     }),
   ],
 };
