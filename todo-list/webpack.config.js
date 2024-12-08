@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -6,11 +7,17 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    clean: true,
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+    }),
+  ],
   devServer: {
-    static: path.join(__dirname, 'dist'),  // This replaces `contentBase`
-    open: true,  // Automatically open the browser
-    hot: true,   // Enable Hot Module Replacement (HMR)
-    port: 8080,  // Specify the port for the dev server
+    static: path.join(__dirname, 'dist'),
+    open: true,
+    hot: true,
+    port: 8080,
   },
 };
