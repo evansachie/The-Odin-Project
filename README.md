@@ -8,15 +8,15 @@ Explore each project below:
 
 - **JavaScript Calculator App**  
   A simple, interactive calculator built with JavaScript.  
-  [Live Demo](https://awesome04.github.io/js-calculator/)
+  [Live Demo](https://evansachie.github.io/js-calculator/)
 
 - **Etch A Sketch**  
   A digital version of the classic drawing tool, implemented with HTML, CSS, and JavaScript.  
-  [Live Demo](https://awesome04.github.io/Etch-A-Sketch/)
+  [Live Demo](https://evansachie.github.io/Etch-A-Sketch/)
 
 - **Rock Paper Scissors**  
   Play a classic game of rock, paper, and scissors against the computer.  
-  [Live Demo](https://awesome04.github.io/rock-paper-scissors/)
+  [Live Demo](https://evansachie.github.io/rock-paper-scissors/)
 
 - **Landing Page**  
   A responsive landing page designed with HTML and CSS.  
