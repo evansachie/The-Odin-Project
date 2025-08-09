@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1754660211459" clover="3.2.0">
-  <project timestamp="1754660211459" name="All files">
+<coverage generated="1754675580697" clover="3.2.0">
+  <project timestamp="1754675580697" name="All files">
     <metrics statements="67" coveredstatements="67" conditionals="19" coveredconditionals="19" methods="9" coveredmethods="9" elements="95" coveredelements="95" complexity="0" loc="67" ncloc="67" packages="1" files="6" classes="6"/>
     <file name="analyzeArray.js" path="C:\Users\Snave\Downloads\TOP\The-Odin-Project\jest\analyzeArray.js">
       <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
