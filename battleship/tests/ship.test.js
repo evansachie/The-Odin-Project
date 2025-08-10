@@ -6,7 +6,6 @@ test('Ship creation', () => {
     ship.hit()
     ship.hit()
     ship.hit()
-
     expect(ship.isSunk()).toBe(false);
 
     ship.hit()
