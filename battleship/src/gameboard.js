@@ -1,4 +1,3 @@
-// src/gameboard.js
 export default class Gameboard {
   constructor(size = 10) {
     this.size = size;
@@ -8,11 +7,7 @@ export default class Gameboard {
       Array.from({ length: size }, () => ({ ship: null, isHit: false }))
     );
 
-    // keep track of placed ships and their coordinates for rendering/testing
-    // each entry: { ship: Ship, positions: [[r,c], ...] }
     this.placedShips = [];
-
-    // list of coordinates for missed attacks
     this.missedAttacks = [];
   }
 
