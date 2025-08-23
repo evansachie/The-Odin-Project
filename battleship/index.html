@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Battleship — Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Battleship</h1>
+      <div id="controls">
+        <button id="restart-btn">Restart</button>
+        <div id="status">Loading...</div>
+      </div>
+
+      <section id="boards">
+        <div class="board-wrap">
+          <h2>Your board</h2>
+          <div id="player-board" class="board"></div>
+        </div>
+
+        <div class="board-wrap">
+          <h2>Computer board</h2>
+          <div id="computer-board" class="board"></div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="src/dom.js"></script>
+  </body>
+</html>
