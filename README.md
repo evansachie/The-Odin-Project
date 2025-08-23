@@ -34,3 +34,6 @@ Explore each project below:
 A simple library application designed with HTML, CSS, and JS.  
 [Live Demo](https://library-app-ochre-two.vercel.app/)
 
+- **Battleship Game**  
+A simple battleship game made with HTML, CSS, JSS & TDD
+[Live Demo](https://battleship-game-sigma.vercel.app/)
