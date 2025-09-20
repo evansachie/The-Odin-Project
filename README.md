@@ -37,3 +37,7 @@ A simple library application designed with HTML, CSS, and JS.
 - **Battleship Game**  
 A simple battleship game made with HTML, CSS, JSS & TDD
 [Live Demo](https://battleship-game-sigma.vercel.app/)
+
+- **Todo List App**
+A simple todo list application made with HTML, CSS, and JS.
+[Live Demo](https://todo-list-umber-zeta-12.vercel.app/)
