@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TO DO APP</h1>
+
+    <div id="main-app">
+        <div id="projects">
+            <h2>Projects</h2>
+            <div id="projects-list"></div>
+        </div>
+
+        <div id="todos">
+            <h2>Todos</h2>
+            <div id="todos-list"></div>
+        </div>
+    </div>
+
+    <div id="add-btns">
+        <button id="add-project-btn">Add Project</button>
+        <button id="add-todo-button">Add Todo</button>
+    </div>
+
+    <div id="modal-overlay" class="modal-overlay hidden">
+        <div id="modal" class="modal">
+            <form id="modal-form" action="">
+            </form>
+        </div>
+    </div>
+
+    <script src="bundle.js"></script>
+</body>
+</html>
