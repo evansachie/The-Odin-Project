@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <label class="switch">
+        <input type="checkbox" id="toggle-btn" aria-label="Toggle temperature unit">
+        <span class="slider"></span>
+    </label>
+    <span class="unit-label">°C / °F</span>
+
+    <h1><i>Odin</i> Weather App</h1>
+
+    <div id="container">
+        <form action="" id="weather-form">
+            <label for="city-name" class="visibility-hidden">City</label>
+
+            <div>
+                <input type="text" id="city-name" name="city-name" placeholder="Enter city name (e.g. Accra)">
+                <button type="submit" id="get-weather-btn">Get Weather</button>
+            </div>
+            
+        </form>
+    </div>
+
+    <div id="loading" class="loading-container hidden">
+        <div class="spinner"></div>
+        <p>Loading weather data...</p>
+    </div>
+    
+    <div id="weather-results"></div>
+    
+    <div id="forecast-section" class="forecast-section hidden">
+        <h2>5-Day Forecast</h2>
+        <div id="forecast-container"></div>
+    </div>
+    
+    <div id="error-messages"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
